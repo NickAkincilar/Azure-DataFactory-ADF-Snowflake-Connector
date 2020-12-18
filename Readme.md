@@ -22,7 +22,7 @@ Finally easy to use Azure Data Factory (ADF) Snowflake connector that has no tim
 
 It took me a while make it work but I was finally able to create a function that could run in ADF without any timeout limitations using Azure's cheaper shared function plans vs. dedicated ones.
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/ADF_Function_Chart.png?raw=true" alt="drawing" width="900"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/ADF_Function_Chart.png?raw=true" alt="drawing" width="900"/>
 
   
 ### Brief History on Limitations of Azure Functions for long running tasks ###
@@ -96,7 +96,7 @@ Solution is a regular Azure Function app which mimics the output of a Durable fu
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/ADF_Function_Chart.png?raw=true" alt="drawing" width="900"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/ADF_Function_Chart.png?raw=true" alt="drawing" width="900"/>
 
   
 
@@ -137,7 +137,7 @@ Connection attributes & the SQL command can be inserted in to JSON as **hard cod
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Credentials_From_KeyVault.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Credentials_From_KeyVault.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -182,7 +182,7 @@ You can use web requests to fetch Azure Vault Secrets & set it as variable value
 
   
 
-<img src="https://raw.githubusercontent.com/NickAkincilar/Snowflake-Azure-DataFactory-Connector/master/images/Credentials_Static.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Credentials_Static.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -212,7 +212,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00001.png?raw=true" alt="drawing" width="300"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00001.png?raw=true" alt="drawing" width="300"/>
 
   
 
@@ -246,7 +246,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00002.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00002.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -280,7 +280,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/FunctionConfig.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/FunctionConfig.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -298,7 +298,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00004.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00004.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -312,7 +312,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00005.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00005.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -326,7 +326,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/StopFunction1.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/StopFunction1.png?raw=true" alt="drawing" width="600"/>
 
 
   
@@ -340,7 +340,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/PlatformFeatures.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/PlatformFeatures.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -354,7 +354,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Kudu.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Kudu.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -383,7 +383,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
   
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Powershell.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Powershell.png?raw=true" alt="drawing" width="600"/>
 
   
   
@@ -400,7 +400,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/AppConfig.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/AppConfig.png?raw=true" alt="drawing" width="400"/>
 
   
 
@@ -418,29 +418,29 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
 - Click **New Application Setting**
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/newappsetting.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/newappsetting.png?raw=true" alt="drawing" width="400"/>
 
   
 
 - Set **Name** = **passcode** (case sensitive) then Set the **Value** = **enter any encryption key** to be used to encypt URL parameters being sent back (***letters & numbers & upper case***)
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/newappsetting2.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/newappsetting2.png?raw=true" alt="drawing" width="400"/>
 
   
 
 - Don't forget to **SAVE** the newly creared "**passcode**" setting.
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/newappsetting3.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/newappsetting3.png?raw=true" alt="drawing" width="400"/>
 
   
 
 13. Click on the **FunctionApp** Name in the **breadcrumb list on top** to go back.
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/startfunction0.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/startfunction0.png?raw=true" alt="drawing" width="400"/>
 
 14. Click on **OVERVIEW** tab & click on **START**
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/startfunction2.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/startfunction2.png?raw=true" alt="drawing" width="400"/>
 
   
 
@@ -452,7 +452,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/copykey.png?raw=true" alt="drawing" width="700"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/copykey.png?raw=true" alt="drawing" width="700"/>
 
   
 
@@ -488,7 +488,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00017.png?raw=true" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00017.png?raw=true" alt="drawing" width="400"/>
 
   
 
@@ -522,7 +522,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00018.png?raw=true" alt="drawing" width="700"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00018.png?raw=true" alt="drawing" width="700"/>
 
   
 
@@ -542,7 +542,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
   
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/Screenshot00019.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/Screenshot00019.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -572,7 +572,7 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
 4. Add a new **WEB** step in to canvas and connect them together.
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/webstep.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/webstep.png?raw=true" alt="drawing" width="600"/>
 
   
 
@@ -586,13 +586,13 @@ Typical usage would be to place this at the end of a data pipeline and issue a c
 
 - Set **Method = GET**
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/webstep2.png?raw=true" alt="drawing" width="600"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/webstep2.png?raw=true" alt="drawing" width="600"/>
 
   
 
 6. If you need to add additional steps based on the result of inital call, you can now attach them after WEB step.
 
-<img src="https://github.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/blob/master/images/workflow.png?raw=true" alt="drawing" width="700"/>
+<img src="https://raw.githubusercontent.com/NickAkincilar/Azure-DataFactory-ADF-Snowflake-Connector/main/images/workflow.png?raw=true" alt="drawing" width="700"/>
 
 7. In this case, I added IF logic that tests the outcome of the WAIT TILL DONE.
 
